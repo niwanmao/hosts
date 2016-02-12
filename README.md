@@ -1,12 +1,3 @@
-![](http://www.andorrainternational.com/wp-content/uploads/2016/01/Chinese-2016-new-year-with-monkey-year-creative-vector-03.jpg)
-
-# 欢迎使用hosts！祝各位新年快乐！
-
------------------
-
-> 请注意：下述使用指导均可能覆盖现有hosts，如现有hosts内容重要的话请备份<br>
-> 如果不想手动备份的话，请尝试[Host Tools](https://github.com/racaljk/hosts/tree/master/hosts_tools)/[Hozz](http://blog.zhangruipeng.me/Hozz/)<br>
-> 
 
 ------------------
 
@@ -24,7 +15,7 @@
 ## Mac OS
 请 新建/修改 `/private/etc/hosts` 文件，并将我们的[hosts](https://raw.githubusercontent.com/racaljk/hosts/master/hosts)文件中的内容全部内容复制到该文件中并保存。
 
-然后请重置网络以便让更改生效。
+然后`sudo killall -HUP mDNSResponder` 重置网络以便让更改生效。
 
 > 也可以使用[Gas Mask](http://www.macupdate.com/app/mac/29949/gas-mask/)工具。
 
